@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.akibgolap.kuet.SmartRoom.Main22Activity"
+    android:background="#252525"
+    >
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="153sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#252525"
+        android:layout_alignParentBottom="true"></LinearLayout>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/bedRoomButton"
+        android:background="@drawable/room11"
+        android:layout_gravity="bottom|center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/captureButton"
+        android:background="@drawable/download"
+        android:layout_gravity="bottom|center"
+        android:layout_alignBottom="@+id/webView"
+        android:layout_toStartOf="@+id/textView" />
+
+
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/fanButton"
+        android:background="@drawable/fan1"
+        android:layout_alignTop="@+id/doorButton"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginStart="52dp"
+        android:layout_gravity="right" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/doorButton"
+        android:background="@drawable/door2"
+        android:layout_above="@+id/bedRoomButton"
+        android:layout_alignEnd="@+id/textView"
+        />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/lightButton"
+        android:background="@drawable/light7"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/fanButton"
+
+        android:layout_gravity="right" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/dimlightButton"
+        android:background="@drawable/light61"
+        android:layout_alignTop="@+id/lightButton"
+        android:layout_alignEnd="@+id/doorButton"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      Room    "
+        android:textColor="#b1f7fe"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        Smart  "
+        android:textColor="#b1f7fe"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/webView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+
+        android:layout_gravity="center_vertical" />
+
+</RelativeLayout>

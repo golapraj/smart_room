@@ -1,0 +1,45 @@
+body 
+	{
+	   background: #272822;
+       padding-left: 75px;
+       padding-right: 75px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+	}
+.main
+	{
+		float: top;
+		display: block;
+		
+		height: 600px;
+		width: 1215px;
+	}
+.video
+	{
+		display: inline-block;
+		float: left;
+	
+		height: 550px;
+		width: 800px;
+		background-image: 
+	}
+.control
+	{
+		display: inline-block;
+		float: left;
+		
+		height: 550px;
+		width: 400px;
+	}
+button
+	{
+		border-radius: 50%;	
+	}
+img
+	{
+		border-radius: 50%;	
+	}
+a
+	{
+		margin-top: -200px; 		
+	}

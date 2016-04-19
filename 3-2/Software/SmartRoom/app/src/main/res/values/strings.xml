@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Room</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main22">Control Appliances</string>
+    <string name="title_activity_main2">Saved Image</string>
+
+</resources>
